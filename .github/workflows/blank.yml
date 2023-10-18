@@ -27,7 +27,6 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        secrets: inherit
         shell: bash
         env: # Or as an environment variable
             endpoint: ${{ secrets.TEST_SECRET }}
